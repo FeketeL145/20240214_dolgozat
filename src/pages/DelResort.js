@@ -16,7 +16,7 @@ export function DelResort() {
             })
             .then(response => response.json())
             .then(data => console.log(data))
-            .then(navigate('/'))
+            .then(navigate('/resorts'))
             .catch(error => console.error('Error:', error));
             }
         }>
